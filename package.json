@@ -1,0 +1,23 @@
+{
+  "name": "docker-node-calculator",
+  "version": "1.0.0",
+  "description": "calculator node service",
+  "main": "service.js",
+  "scripts": {
+    "test": "caltest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leon1208/docker-node-calculator.git"
+  },
+  "author": "leeon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leon1208/docker-node-calculator/issues"
+  },
+  "homepage": "https://github.com/leon1208/docker-node-calculator#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
